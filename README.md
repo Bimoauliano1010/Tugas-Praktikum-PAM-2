@@ -5,8 +5,10 @@ Proyek **News Feed Simulator** adalah aplikasi Kotlin Multiplatform (KMP) + Comp
 ## 📌 Deskripsi Singkat
 Aplikasi ini mensimulasikan aliran berita secara langsung (*real-time*). Berita baru akan dikirim dan dimunculkan secara otomatis setiap 2 detik menggunakan Kotlin Flow, disaring berdasarkan kategori (`filter`), diubah format tampilannya (`map`), dicatat aktivitasnya (`onEach`), disimpan jumlah berita yang sudah dibaca (`StateFlow`), serta dimuat detail beritanya secara latar belakang tanpa membuat aplikasi macet/freeze (`Coroutines`).
 
-## 📱 Screenshot:
-![Screenshot](https://raw.githubusercontent.com/Bimoauliano1010/Tugas-Praktikum-PAM-2/main/screenshot.png)
+## 📱 Screenshot
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Bimoauliano1010/Tugas-Praktikum-PAM-2/main/bukti/pam2.png" width="300" alt="Screenshot News Feed Simulator" />
+</p>
 
 ## 🛠️ Teknologi yang Digunakan
 - **Kotlin Multiplatform (KMP)**
