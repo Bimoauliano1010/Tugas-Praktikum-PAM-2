@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Tugas-Praktikum-PAM-2
-Tugas ini akan membuat NewsFeed Simulator
-=======
 # News Feed Simulator
 
 Proyek **News Feed Simulator** adalah aplikasi Kotlin Multiplatform (KMP) + Compose Multiplatform yang dikembangkan untuk Tugas Praktikum Pengembangan Aplikasi Mobile (PAM) ITERA.
@@ -10,7 +6,9 @@ Proyek **News Feed Simulator** adalah aplikasi Kotlin Multiplatform (KMP) + Comp
 Aplikasi ini mensimulasikan aliran berita secara langsung (*real-time*). Berita baru akan dikirim dan dimunculkan secara otomatis setiap 2 detik menggunakan Kotlin Flow, disaring berdasarkan kategori (`filter`), diubah format tampilannya (`map`), dicatat aktivitasnya (`onEach`), disimpan jumlah berita yang sudah dibaca (`StateFlow`), serta dimuat detail beritanya secara latar belakang tanpa membuat aplikasi macet/freeze (`Coroutines`).
 
 ## 📱 Screenshot:
-![Screenshot](screenshot.png)
+<p align="center">
+  <img src="screenshot.png" alt="Screenshot News Feed Simulator" width="350" />
+</p>
 
 ## 🛠️ Teknologi yang Digunakan
 - **Kotlin Multiplatform (KMP)**
@@ -33,4 +31,3 @@ Aplikasi ini mensimulasikan aliran berita secara langsung (*real-time*). Berita 
 ```bash
 ./gradlew :desktopApp:run
 ```
->>>>>>> 04a717c (Feat: Complete News Feed Simulator KMP)
